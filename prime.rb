@@ -3,6 +3,7 @@ def prime?( number )
   
   count = 3
   while count < number do
+    
     count += 1
   end
 end
