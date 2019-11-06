@@ -1,5 +1,6 @@
 def prime?( number )
-  number
+  return true if number <= 2
+  return false if number <= 1
   
   count = 2
   while count < number do
