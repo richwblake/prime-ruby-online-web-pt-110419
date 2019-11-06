@@ -6,5 +6,5 @@ def prime?( number )
     return false if number % count == 0
     count += 1
   end
-  false
+  true
 end
