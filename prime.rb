@@ -1,5 +1,4 @@
 def prime?( number )
-  return true if number <= 2 && number > 0
   return false if number <= 1
   
   count = 2
