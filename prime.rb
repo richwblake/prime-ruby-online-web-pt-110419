@@ -1,7 +1,4 @@
 def prime?( number )
-  if number <= 2
-    return true
-  end
-  
+  return true if number <= 2
   
 end
